@@ -90,6 +90,10 @@ form.form-inline {
     height: 100%;
 }
 
+.jumbotron .row .col-md-8 .row {
+    margin-right:1px;
+}
+
 .display-4 {
     font-size:1em;
     font-weight:300;
@@ -133,6 +137,14 @@ main div p {
         flex: 0 0 50%;
         max-width: 50%;
     }
+
+    .row .col-md-8 .row {
+        margin-right:0;
+    }
+
+    .jumbotron .row .col-md-8 {
+        padding-right:0;
+    }
 }
 
 @media only screen and (min-width: 576px) {
@@ -152,6 +164,7 @@ main div p {
     .right_plank {
         margin-top:0;
     }
+
 }
 
 @media only screen and (min-width: 768px) { 
